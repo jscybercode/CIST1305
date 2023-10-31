@@ -1,0 +1,109 @@
+body{
+    margin:0;
+}
+
+header{
+    width: 100vw;
+}
+
+header .header_text{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+header{
+    width: 100vw;
+    height: 50vh; 
+    background-image: url("../images/hero_image2.png"); 
+    background-repeat: no-repeat, no-repeat; 
+    background-size: cover;
+}
+
+
+
+
+/* Style rules for hamburger menu */
+.mobile-nav a {
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;  
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Show mobile class, hide tablet-desktop class and menu-links id */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop, #menu-links {
+    display: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+    
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile, .mobile-nav {
+        display: none;
+    }
+    
+    /* Tablet Viewport: Style rule for header */
+    header {
+        padding-bottom: 2%;
+    }
+    
+    /* Tablet Viewport: Style rules for nav area */
+    nav {
+        padding: 1%;
+        margin-bottom: 1%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    nav li {
+        font-size: 1.5em;
+        font-family: 'Francois One', sans-serif;
+        display: inline-block;
+        border-right: 1px solid #fff;
+    }
+    
+    nav li:last-child {
+        border-right: none;
+    }
+    
+    nav li a {
+        padding: 0.1em 0.75em;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    /* Tablet Viewport: Style rules for main content area */
+    main ul {
+        margin: 0 0 4% 10%;
+    }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+    }
+}
