@@ -24,4 +24,4 @@
 	Output devices
 
 
-##	1.3
+##	1.3 How Computers Store Data
