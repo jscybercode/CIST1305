@@ -1,4 +1,4 @@
-#Introduction to Computers and Programming
+# Introduction to Computers and Programming
 
 ##	1.1 Introduction
 1. Computers are designed to do any job that their programs tell them to do, A program is a set of instructions that a computer follows to perform a task.
